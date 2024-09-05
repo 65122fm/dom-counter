@@ -1,0 +1,71 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.all-paegs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: bisque;
+}
+
+#count-section {
+    display: flex;
+    align-items: center;
+    border: 60px solid white;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 20%;
+}
+.header-part{
+    display: flex;
+    justify-content: center ;
+}
+
+
+
+#count-section button {
+    background-color: rgba(158, 161, 144, 0.77);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: background-color 0.3s;
+}
+#count-section p {
+    font-size: 24px;
+    margin: 0 15px;
+    line-height: 40px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.711);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 70%;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+.btn-section{
+    display: flex;
+    justify-content: center;
+}
