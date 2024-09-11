@@ -14,4 +14,5 @@ positiveBtn.addEventListener("click", function(){
 });
 reset.addEventListener("click", function(){
     counter.innerHTML = 0;
+    x=0
 });
